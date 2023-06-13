@@ -1,4 +1,4 @@
-console.log('hello world')
+
 const input=document.getElementById('phone');
 const label=document.getElementById('label')
 const fun1=()=>{
