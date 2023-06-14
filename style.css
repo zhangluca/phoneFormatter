@@ -29,3 +29,42 @@ h1 {
   background-color:purple;
   color: white
 }
+form {
+  margin-top: 3%;
+  background-color: #ddd;
+}
+p {
+  font-size: 18;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.background-element {
+  position:top;
+}
+
+.background-element img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.background-element .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  color: #ffffff;
+  text-align: center;
+}
+
+.background-element .content h1 {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.background-element .content p {
+  font-size: 16px;
+  color: white;
+  background-color: orange;
+}
